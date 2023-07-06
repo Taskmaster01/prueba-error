@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+    text-align: center;
+}
+.conteiner{
+    width: 100%;
+}
+body{
+    margin: 2px 2px 2px 2px;;
+    background-color: grey;
+}
+footer{
+    background-color: yellow; 
+    
+}
+header{
+    background-color: rgb(27, 27, 211);
+    color: chartreuse;
+}
+section{
+    background-color:blueviolet;
+    
+}
+article{
+    background-color: red; 
+}
+aside{
+    background-color: blue;
+    color: azure;
+}
+
+#log{
+    height: 100px;
+    width: 100px;
+}
+#ico{
+    height: 20px;
+    width: 30px; 
+    float: left; 
+
+}
+button{
+    margin-top: 2%;
+    width: 100%;
+}
+#tbl{
+    color: aliceblue;
+}
+#blk{
+    color: black;
+}
+#pp{
+    background-color: blue; 
+    text-align: center ;
+}
+/*hr {
+    height: 2px;
+    background-color:aliceblue;
+  }*/
+ #tam{
+    width: 100%;
+}
+#sss{
+    height: 200px;
+}
+#sec{
+    width: 65%;
+    margin: 0px 0px 0px 0px;
+}
+ p{
+    font-size: small;
+ }
+ #signo{
+    height: 100px;
+    width: 100px;
+    
+ }
+ th{
+    text-align: center;
+    
+ }
+ #izq{
+text-align: right;
+ }
+  

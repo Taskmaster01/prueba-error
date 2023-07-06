@@ -1,0 +1,115 @@
+<div class="row">
+    <section class="col-8">
+        <div class="row">
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="card h-100">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273e04e7fe72eb2830d139eda96" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">It's My Life<br> <small class="text-muted">Bon Jovi</small></h5>
+                       
+                        <p class="card-text">
+                            This ain't a song for the broken-hearted <br>
+                            No silent prayer for faith-departed <br>
+                            And I ain't gonna be just a face in the crowd... 
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="card h-100">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0248b0ca6a48516ee746f25144" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">I'm Just a Kid<br> <small class="text-muted">Simple Plan </small></h5>
+                       
+                        <p class="card-text">I woke up it was seven, I waited 'til 11<br> 
+                            Just to figure out that no one would call<br>
+                            I think I've got a lot of friends<br>
+                            But I don't hear from them
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="card h-100">
+                    <img src="https://i1.sndcdn.com/artworks-000082840509-ty2eem-t500x500.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Numb<br>  <small class="text-muted">Linkin Park</small></h5>
+                      
+                        <p class="card-text"> I'm tired of being what you want me to be<br>  
+                            Feeling so faithless, lost under the surface<br> 
+                            Don't know what you're expecting of me
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="card h-100">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2736e07f1840a5ecd02e0954489" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> 21 Guns<br> <small class="text-muted">Green Day</small></h5>
+                       
+                        <p class="card-text"> Do you know what's worth fighting for<br> 
+                            When it's not worth dying for?<br> 
+                            Does it take your breath away
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="card h-100">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27317a142a78128fb7c54ab9aa4" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Glad You Came<br><small class="text-muted">The Wanted</small></h5>
+                        
+                        <p class="card-text"> I'm tired of being what you want me to be<br> 
+                            Feeling so faithless, lost under the surface<br> 
+                            Don't know what you're expecting of me..<br>
+                       </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="card h-100">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02afd3aa3632c1816a0f626484" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Spectre<br><small class="text-muted">Alan Walker</small></h5>
+                        
+                        <p class="card-text">Hello, hello<br>
+                            Can you hear me<br> 
+                            As I scream your name?<br> 
+                            Hello, hello
+                        </p>
+                     </div>
+                </div>
+            </div>
+
+           
+            
+
+        </div>
+
+    </section>
+
+    <aside class="col-4  ">
+        <div class="row">
+        <img src= "https://media.jujuyalmomento.com/adjuntos/260/banners/002/111/0002111613.gif">
+        <img src="https://media.jujuyalmomento.com/adjuntos/260/banners/002/095/0002095464.gif">
+    </div>    
+    </aside>
+
+</div>
+<p>portal works!</p>
+ 
+
+<button class="btn btn-primary" (click)="obtener(15)">obtener</button>
+<h1>{{tit}}</h1>
+<h1>{{lin}}</h1> 
+<table>
+<tbody>
+    <tr *ngFor="let item of artistas">
+    <td>{{item.id}}</td>
+    <td>{{item.name | uppercase}}</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,24 @@
+<h2>QR</h2>
+
+ 
+<!-- https://rapidapi.com/dev.balmuda/api/qrcode-generator-base64 -->
+
+<form>
+    <div class="mb-3">
+        <label for="cantidad" class="form-label">texto</label>
+        <input id="al"  class="form-control" 
+        name="texto" [(ngModel)]="texto"
+            placeholder="palabra" >
+    </div>
+    <button class="btn btn-primary" (click)="crear()">obtener</button>
+    
+     <img src="data:image/png;base64,{{imgg}}" alt="Red dot" />
+     <!-- {{imgg}} 
+        tiene q debolver
+        result:"<img src='data:image/;base64,iVBORw0....'>
+     -->
+   
+</form>
+
+
+ 

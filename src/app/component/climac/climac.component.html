@@ -1,0 +1,21 @@
+<p>climac works!</p>
+
+<form>
+    <div class="mb-3">
+        <label for="cantidad" class="form-label">ciudad</label>
+        <input id="al"  class="form-control" 
+        name="texto" [(ngModel)]="texto"
+            placeholder="palabra" >
+    </div>
+    <button class="btn btn-primary" (click)="crear()">obtener</button>
+    
+
+     <!-- {{imgg}} 
+        tiene q debolver
+        result:"<img src='data:image/;base64,iVBORw0....'>
+     -->
+     <tr *ngFor="let pr of prs">
+        <th><p>description: {{pr.description}}</p> </th>
+        <th><p>main: {{pr.main}}</p></th>
+    </tr>
+</form>
